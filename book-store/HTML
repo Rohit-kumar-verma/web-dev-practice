@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="bg-container" id="HomePage">
+        <h1 class="main-heading">Popular Book</h1>
+        <div class="book-1 d-flex flex-row">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png"  class="book-1-image"/>
+            <div class="book-info">
+                <h2 class="book-title">Wings of Fire</h2>
+                <p class="book-desc">An Autobiography of<br/> Abdul Kalam</p>
+                <p class="book-author">by Arun Tiwari</p>
+                <a href="#wings-of-fire"><button class="btn btn-primary">Read Now</button></a>
+            </div>
+        </div>
+        <h3>Recommended Books</h3>
+        <div class="book d-flex flex-row">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="book-image"/>
+            <div class="book-info">
+                <h2 class="book-title">The 2 mistakes of my life</h2>
+                <p class="book-desc">Indian autthor</p>
+                <p class="book-author">by Chetan Bhagat</p>
+                <a href="#the-3-mistakes-of-my-life"><button class="btn btn-primary">Read Now</button></a>
+            </div>
+        </div>
+        <div class="book d-flex flex-row">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="book-image"/>
+            <div class="book-info">
+                <h2 class="book-title">Harry potter</h2>
+                <p class="book-desc"> and the Sorcerer's Stone</p>
+                <p class="book-author">by J.K. Rowling</p>
+                <a href="#harry-potter"><button class="btn btn-primary">Read Now</button></a>
+            </div>
+        </div>
+    </div>
+    <div id="wings-of-fire" class="book-container">
+        <div class="book-details">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png"/>
+            <h1>Wings of Fire</h1>
+            <p class="book-author">by Arun Tiwari</p>
+        </div>
+        <p>
+            In the autobiography, Kalam examines his early life, effort, hardship, fortitude, luck and chance that eventually led him to lead Indian space research, nuclear and missile programs. Kalam started his career, after graduating from Aerospace engineering at Madras Institute of Technology, at Hindustan Aeronautics Limited and was assigned to build a hovercraft prototype. Later he moved to ISRO and helped establish the Vikram Sarabhai Space Centre and pioneered the first space launch-vehicle program. During the 1990s and early 2000, Kalam moved to the DRDO to lead the Indian nuclear weapons program, with particular successes in thermonuclear weapons development culminating in the operation Smiling Buddha and an ICBM Agni.
+        </p>
+        <div class="button d-flex flex-row justify-content-center">
+            <a href="#HomePage"><button class="btn btn-back">Back</button></a>
+            <button class="btn btn-primary">Buy Now</button>
+        </div>
+    </div>
+    <div id="the-3-mistakes-of-my-life" class="book-container">
+        <div class="book-details">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png"/>
+            <h1>The 3 mistakes of my life</h1>
+            <p class="book-author">by Chetan Bhagat</p>
+        </div>
+        <p>
+            The best selling feature of a Chetan Bhagat book is its readability. In a world where one is constantly striving to find time, it truly matters when you can actually finish reading a book within a couple of hours. Also, when he isn't getting too filmy and over-the-top, Chetan actually manages to hold a story well enough. That was evident with both Five Point Someone and One Night At A Call Centre. The former especially works as an excellent satire on the education system I thought.
+        </p>
+        <div class="button d-flex flex-row justify-content-center">
+            <a href="#HomePage"><button class="btn btn-back">Back</button></a>
+            <button class="btn btn-primary">Buy Now</button>
+        </div>
+    </div>
+    <div id="harry-potter" class="book-container">
+        <div class="book-details">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png"/>
+            <h1>Harry Potter</h1>
+            <p class="book-author">by J.K. Rowling</p>
+        </div>
+        <p>
+            Harry Potter and the Prisoner of Azkaban is a 2004 fantasy film directed by Alfonso Cuarón and distributed by Warner Bros. Pictures, based on J. K. Rowling's 1999 novel of the same name. The film was written by Steve Kloves, and produced by Chris Columbus and David Heyman. It is the sequel to Harry Potter and the Chamber of Secrets (2002) and the third instalment in the Harry Potter film series. It stars Daniel Radcliffe as Harry Potter, alongside Rupert Grint and Emma Watson as Harry's best friends Ron Weasley and Hermione Granger respectively. The film follows Harry's third year at Hogwarts and his quest to uncover the truth about his past, including the connection recently-escaped Azkaban prisoner Sirius Black has to Harry and his late parents.
+        </p>
+        <div class="button d-flex flex-row justify-content-center">
+            <a href="#HomePage"><button class="btn btn-back">Back</button></a>
+            <button class="btn btn-primary">Buy Now</button>
+        </div>
+    </div>
+  </body>
+</html>
